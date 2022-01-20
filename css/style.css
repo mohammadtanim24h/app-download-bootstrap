@@ -31,3 +31,16 @@ body {
 #banner {
     height: calc(100vh - 80px);
 }
+
+.web-design {
+    height: 70vh;
+}
+
+.stop-waiting {
+    height: 100vh;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
