@@ -29,11 +29,11 @@ body {
 }
 
 #banner {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
 }
 
 .web-design {
-    height: 70vh;
+    height: 100vh;
 }
 
 .stop-waiting {
