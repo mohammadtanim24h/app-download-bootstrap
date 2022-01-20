@@ -1,0 +1,33 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+/*-------------------
+----- Utilities------
+--------------------- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gradient-background {
+    background-image: linear-gradient(90deg, #FD297A, #9424F0);
+}
+
+#gradient-text {
+    display: inline-block;
+    background-image: linear-gradient(90deg, #FD297A, #9424F0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/*---------- Navigation ----------- */
+
+.navigation {
+    height: 80px;
+}
+
+#banner {
+    height: calc(100vh - 80px);
+}

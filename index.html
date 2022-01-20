@@ -11,34 +11,64 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header class="navigation py-2">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
+                <div class="container">
+                  <a id="gradient-text" class="navbar-brand" href="#">Bootstrap</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item mx-3">
                         <a class="nav-link" href="#">Features</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                      <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Download</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                      <li class="nav-item mx-3">
+                        <a class="nav-link btn rounded-pill gradient-background text-white px-3" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                              </svg>Send Feedback</a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </nav>
-        </div>
     </header>
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column justify-content-center h-100">
+                            <h1 id="gradient-text" class="display-2 fw-bold">Showcase your app beautifully</h1>
+                            <p class="fs-5">Launch your mobile app landing page faster with this free, open source theme from Learn Bootstrap!</p>
+                            <div>
+                                <a href="">
+                                    <img src="images/google-play.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="images/app-store.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex justify-content-center align-items-center py-3">
+                            <img src="images/banner.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="gradient-background d-flex flex-column justify-content-center align-items-center py-5">
+                <h1 class="text-center w-50 text-white mb-5">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</h1>
+                <img src="images/tnw-logo.svg" height="50" alt="">
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
